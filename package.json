@@ -6,6 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "bin": {  
+    "wyk-vite": "./bin/www.js"
+  },
+  "author": "williamyorkl",
   "license": "ISC"
 }
