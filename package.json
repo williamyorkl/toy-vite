@@ -4,11 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./bin/www.js"
   },
-  "bin": {  
+  "bin": {
     "wyk-vite": "./bin/www.js"
   },
   "author": "williamyorkl",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.13.4",
+    "koa-static": "^5.0.0",
+    "vue": "^2.6.14"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
 }
